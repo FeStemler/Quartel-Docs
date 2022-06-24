@@ -1,0 +1,109 @@
+body {
+  background: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "neue", sans-serif;
+  font-weight: 700;
+}
+
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: "neue", sans-serif;
+}
+
+.qrtl-color-bar {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  background: #b42f50;
+  background: linear-gradient(180deg, #b42f50 10%, #121eb0 46%, #69d155 90%);
+  background-size: 100% 150%;
+}
+
+.full {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-bottom: 55px;
+}
+
+.mid {
+  width: 50%;
+}
+
+header.banner {
+  background: #000;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 30px;
+}
+
+.cover {
+  align-items: center;
+
+  .mid {
+    display: flex !important;
+    justify-content: flex-end !important;
+    flex-direction: column !important;
+    align-items: center;
+    height: 400px;
+
+    p {
+      margin-top: 0;
+      margin-bottom: 8px;
+    }
+
+    .shield {
+      width: 60%;
+    }
+  }
+}
+
+.comp {
+  display: flex;
+  padding: 20% 0 0 !important;
+  position: relative;
+
+  #gallery-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    img {
+      transition: 0.5s ease-in-out;
+    }
+
+    img:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .side {
+    width: 65%;
+  }
+
+  svg.arrow {
+    position: relative;
+    margin-right: 11em;
+    float: left;
+    margin-bottom: 1em;
+  }
+}
+
+.una {
+  width: 400vw;
+  margin-left: -32em;
+  overflow: hidden;
+  margin-top: 11px;
+
+  span.una-text {
+    font-weight: 500;
+  }
+}
